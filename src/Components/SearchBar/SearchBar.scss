@@ -1,0 +1,21 @@
+form {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  border: 1px solid gray;
+}
+input {
+  width: auto;
+  height: 38px;
+  border-width: 0;
+  flex-grow: 1;
+  outline: none;
+  padding-left: 15px;
+}
+button {
+  height: 100%;
+  width: 60px;
+  border: none;
+  border-left: 1px solid gray;
+  margin: 0;
+}
